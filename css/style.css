@@ -1,0 +1,175 @@
+/* ----------------------------------
+       First blog style part
+------------------------------------------ */
+
+
+h1 {
+    font-size: 65px;
+    color: orangered;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.blog-1 {
+    background-color: black;
+    height: 500px;
+}
+
+.first-blog-part {
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.top-info {
+
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.top-banner img {
+    height: 300px;
+    padding-top: 5%;
+
+}
+
+/* ----------------------------------------------------
+            Second blog part 
+-------------------------------------------------------- */
+
+main {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(42, 41, 41);
+    padding-bottom: 5%;
+}
+
+.player-item {
+    width: 65%;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    justify-content: center;
+    grid-row-gap: 10px;
+
+}
+
+
+.player-blog {
+
+    border-radius: 5px;
+    height: 350px;
+    width: 250px;
+    border: 2px solid gray;
+}
+
+.player-image img {
+    height: 250px;
+    width: 250px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.btn {
+
+    background-color: rgb(33, 33, 171);
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    width: 90%;
+    height: 20%;
+    text-decoration: none;
+    color: white;
+
+}
+
+/* --------------------------
+       Third Part start
+       ---------------------------- */
+.selection-list {
+    height: 400px;
+    width: 350px;
+    background-color: black;
+
+}
+
+.order-select {
+    color: white;
+    font-size: 30px;
+    padding: 5%;
+}
+
+
+.calculation-item {
+    padding-top: 20px;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.calculation-list {
+
+    height: 600px;
+    width: 300px;
+    font-size: 25px;
+    padding: 2%;
+    color: white;
+
+    background-color: black;
+
+}
+
+.per-person-ammout {
+    display: flex;
+    justify-content: center;
+}
+
+.player-expenses {
+    display: flex;
+
+
+}
+
+.amount {
+    padding-left: 25%;
+}
+
+.Total-amount-sector {
+    display: flex;
+    justify-content: center;
+}
+
+.total-amount {
+    padding-left: 50%;
+}
+
+/* -----------------------
+    Footer part
+------------------ */
+footer {
+    background-color: black;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    border-top: 1px solid white;
+    background-color: rgb(42, 41, 41);
+
+}
